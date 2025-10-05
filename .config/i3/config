@@ -98,6 +98,6 @@ gaps outer 0
 exec --no-startup-id ~/.config/i3/layout.sh
 exec --no-startup-id polybar
 exec --no-startup-id i3 workspace number 1: 
-exec --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.png
+exec --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.png --no-fehbg
 exec --no-startup-id dunst
 exec --no-startup-id picom
