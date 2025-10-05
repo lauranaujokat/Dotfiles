@@ -13,3 +13,4 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export GOPATH="$XDG_DATA_HOME"/go
 export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
