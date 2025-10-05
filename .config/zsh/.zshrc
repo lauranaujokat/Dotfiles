@@ -106,10 +106,13 @@ alias y=yazi
 alias n="nvim ."
 alias c=clear
 alias ls="eza -1la"
-export STARSHIP_CONFIG=~/.config/starship.toml
-export EDITOR=nvim
 eval "$(starship init zsh)"
 eval "$(atuin init zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export STARSHIP_CONFIG=~/.config/starship.toml
+export EDITOR=nvim
+
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
