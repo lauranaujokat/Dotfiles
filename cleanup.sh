@@ -16,3 +16,5 @@ mv ~/.pulse-cookie $XDG_CONFIG_HOME/pulse/cookie
 rm ~/.zshrc.pre-oh-my-zsh
 
 mv ~/.oh-my-zsh/ $XDG_DATA_HOME/oh-my-zsh
+
+mv ~/.gnupg $XDG_DATA_HOME/gnupg
